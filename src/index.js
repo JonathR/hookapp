@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import { SimpleForn } from './components/01-useState/02-useEffect/SimpleForn';
 
-//import { CounterApp } from './components/01-useState/CounterApp';
 //import { HookApp } from './HookApp';
+//import { CounterApp } from './components/01-useState/CounterApp';
 //import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
+import { SimpleForm } from './components/02-useEffect/SimpleForm';
 
-ReactDom.render(<SimpleForn />, document.getElementById('root'));
+ReactDom.render(<SimpleForm />, document.getElementById('root'));
