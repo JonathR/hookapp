@@ -7,6 +7,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
 //import { SimpleForm } from './components/02-useEffect/SimpleForm';
 //import { FormWithCustomHook } from './components/02-useEffect/ForWithCustomHook';
-import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
+//import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
+//import { FocusScreen } from './components/04-useRef/FocusScreen';
+//import { RealExampleRef } from './components/04-useRef/RealExampleRef';
+//import { Layout } from './components/05-useLayaoutEffect/Layout';
+//import { Memorize } from './components/06-memos/Memorize';
+import { MemoHook } from './components/06-memos/MemoHook';
 
-ReactDom.render(<MultipleCustomHooks />, document.getElementById('root'));
+ReactDom.render(<MemoHook />, document.getElementById('root'));
