@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //import { HookApp } from './HookApp';
@@ -13,6 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import { Layout } from './components/05-useLayaoutEffect/Layout';
 //import { Memorize } from './components/06-memos/Memorize';
 //import { MemoHook } from './components/06-memos/MemoHook';
-import { CallbackHook } from './components/06-memos/CallbackHook';
+//import { CallbackHook } from './components/06-memos/CallbackHook';
+import { Padre } from './components/07-tarea-memo/Padre';
 
-ReactDom.render(<CallbackHook />, document.getElementById('root'));
+ReactDom.render(<Padre />, document.getElementById('root'));
