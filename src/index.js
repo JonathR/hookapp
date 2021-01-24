@@ -12,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 //import { Layout } from './components/05-useLayaoutEffect/Layout';
 //import { Memorize } from './components/06-memos/Memorize';
-import { MemoHook } from './components/06-memos/MemoHook';
+//import { MemoHook } from './components/06-memos/MemoHook';
+import { CallbackHook } from './components/06-memos/CallbackHook';
 
-ReactDom.render(<MemoHook />, document.getElementById('root'));
+ReactDom.render(<CallbackHook />, document.getElementById('root'));
