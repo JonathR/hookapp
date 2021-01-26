@@ -18,6 +18,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Padre } from './components/07-tarea-memo/Padre';
 
 //import './components/08-useReducer/intro-reducer';
-import { TodoApp } from './components/08-useReducer/TodoApp';
+//import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp';
 
-ReactDom.render(<TodoApp />, document.getElementById('root'));
+ReactDom.render(<MainApp />, document.getElementById('root'));
